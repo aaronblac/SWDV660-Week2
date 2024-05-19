@@ -8,11 +8,11 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-<<<<<<< HEAD
+
    response.end('Change is the only constant in the world'\n')
-=======
+
    response.end('Change is the Only Constant in the World!\n')
->>>>>>> 7c2e6e0 (update helloworld)
+
 }).listen(3333)
 
 // Console will print the message
