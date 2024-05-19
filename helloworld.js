@@ -11,8 +11,7 @@ http.createServer(function (request, response) {
 
    response.end('Change is the only constant in the world'\n')
 
-   response.end('Change is the Only Constant in the World!\n')
-
+  
 }).listen(3333)
 
 // Console will print the message
